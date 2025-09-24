@@ -1,5 +1,6 @@
 package UsoListas;
 
+
 public class ListaSimple<T extends Comparable<T>> {
     private Nodo<T> cabeza;
     private int Tamano;

@@ -1,5 +1,6 @@
 package UsoListas;
 
+
 public class Main {
     public static void main(String[] args) {
         ListaSimple<Integer> lista = new ListaSimple<>();
