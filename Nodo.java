@@ -1,27 +1,11 @@
 package UsoListas;
 
 public class Nodo<T> {
-    private T dato;
-    private Nodo<T> siguiente;
+    T valor;
+    Nodo<T> siguiente;
 
-    public Nodo(T dato) {
-        this.dato = dato;
+    public Nodo(T valor) {
+        this.valor = valor;
         this.siguiente = null;
-    }
-
-    public T getDato() {
-        return dato;
-    }
-
-    public void setDato(T dato) {
-        this.dato = dato;
-    }
-
-    public Nodo<T> getSiguiente() {
-        return siguiente;
-    }
-
-    public void setSiguiente(Nodo<T> siguiente) {
-        this.siguiente = siguiente;
     }
 }
