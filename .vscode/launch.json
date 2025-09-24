@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MainDobleCircular",
+            "request": "launch",
+            "mainClass": "UsoListas.MainDobleCircular",
+            "projectName": "UsoListas_9c4d8c6b"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "UsoListas.Main",
