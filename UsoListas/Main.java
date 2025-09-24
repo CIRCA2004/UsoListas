@@ -7,6 +7,8 @@ public class Main {
         lista.agregarFinal(10);
         lista.agregarFinal(20);
         lista.agregarFinal(30);
+        lista.agregarInicio(250);
+        lista.agregar(15, 2); // Agregar 15 en la posición 1
 
         lista.imprimirLista();  // 10 -> 20 -> 30 -> null
 
